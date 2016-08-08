@@ -2,8 +2,6 @@
 #A simple program to log the output of one's gieger counter and output easy to read data
 #Written by Noah Torname
 
-#keep in mind this program is messy and needs cleanup
-
 
 #set up important program stuff
 import time
