@@ -17,12 +17,6 @@ counts = 0
 pin = 23
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(pin, GPIO.IN)
-#A note on geiger counter input;
-#   your counter should have an output jack similar to what headphones use
-#   sarcrifice a pair of old headphones or something and strip the cable of its insulation
-#   the outermost band on the jack is often the ground, connect that to the Pi's ground
-#   connect the positive wire to the base of an NPN transistor
-#   connect 5v to the collector with 1K, the emitter to the input pin, and input pin to ground with 2k2
 
 #counts radioactive particles that enter the geiger-muller tube
 def rawGather():
