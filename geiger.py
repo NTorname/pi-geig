@@ -135,6 +135,8 @@ def toWeb(file):
     web.close()
     
 #starts website to see data in easy way
+#   Apache may prove to be more reliable than this code
+#   Comment this out to use Apache or whatever else you choose
 def webServer():
     print ("starting web server\n")
     while True: #deals with the weird issue of the server dying decently well
